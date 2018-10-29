@@ -1,1 +1,1 @@
-web: gunicorn manage:application --preload
+web: gunicorn mysite.wsgi
