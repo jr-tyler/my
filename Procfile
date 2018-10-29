@@ -1,1 +1,1 @@
-web: gunicorn manage.py --preload
+web: gunicorn manage.py runserver 0.0.0.0:$PORT
