@@ -27,7 +27,7 @@ DEBUG = True
 
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jrt-blog.herokuapp.com', 'localhost', '127.0.0.1']
 
 LOGIN_REDIRECT_URL = 'post_list'
 
