@@ -1,1 +1,1 @@
-web: gunicorn manaage.py --preload
+web: gunicorn manage.py --preload
