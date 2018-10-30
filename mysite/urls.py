@@ -22,6 +22,4 @@ urlpatterns = [
     path('accounts/login/', auth_views.login, name='login'),
     path('accounts/logout/', view=auth_views.logout, name='logout', kwargs={'next_page': 'post_list'}),
     path('', include('blog.urls')),
-    (r'^static/(?P.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
-
 ]
